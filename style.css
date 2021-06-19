@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+
+header {
+    padding: 8px;
+    text-align: left;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+.inner_header {
+    width: 500px;
+    height: 500%;
+    display: black;
+    margin: left;
+    background-color:black;
+}
+
+.logo_box h1{
+    color: #1abc9c;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+
+nav{
+    float: right;
+    height: 100%;
+    display: inline-block;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: black;
+}
+
+ a {
+     color: black;
+      text-decoration: none;
+    }
+
+
+.About-Me{
+    color: #1abc9c;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+img {
+    width:100%;
+    height: 200px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+}
+
+.vertical{
+    border-left: 3px solid #1abc9c;
+    height: 200px;
+    position: absolute;
+    left: 30%;
+    margin-left: -3px;
+    top: 300px;
+}
+
+.introduction{
+    color: white;
+    position:absolute;
+    float: right;
+    text-align: right;
+}
